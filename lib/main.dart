@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /*
 https://www.youtube.com/watch?v=TclK5gNM_PM&t=3056s
-video:32:10
+video:38:58
 
 
 */
@@ -23,8 +23,22 @@ class MyApp extends StatelessWidget {
           child: Container(
             height: 300,
             width: 300,
-            color: Colors.deepPurple,
-            child: Text("Mitch K0K0"),
+
+            decoration: BoxDecoration(
+              color: Colors.deepPurple,
+              borderRadius: BorderRadius.circular(20),
+            ),
+            padding: EdgeInsets.all(25),
+            // padding: EdgeInsets.symmetric(horizontal: 25, vertical: 50),
+            // padding: EdgeInsets.only(left: 25, top: 50),
+            child: const Text(
+              "Mitch K0K0",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ),
         ),
       ),
