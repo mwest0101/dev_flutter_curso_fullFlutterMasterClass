@@ -8,7 +8,7 @@
 @pause
 @call git pull
 @call git add .
-@call git commit -m "%datetimemf%"
+@call git commit -m "%datetimemf%%1"
 @call git push
 
 @atg -b:7 15 Compress Rar
