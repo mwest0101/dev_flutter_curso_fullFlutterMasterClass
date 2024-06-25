@@ -12,6 +12,6 @@
 @call git push
 
 @atg -b:7 15 Compress Rar
-call %~dp0\ut_compress_unity_rar.bat * %NAMEBACKUP% inc_rar_ignore_list.filesIgnore
+call %~dp0\ut_compress_rar.bat * %NAMEBACKUP% inc_rar_ignore_list.filesIgnore
 @echo Fin de actualizacion
 pause
