@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
 import 'package:full_flutter_master_class/pages/first_page.dart';
-import 'package:full_flutter_master_class/pages/second_page.dart';
+import 'package:full_flutter_master_class/pages/home_page.dart';
+import 'package:full_flutter_master_class/pages/settings_page.dart';
 
 /*
 https://www.youtube.com/watch?v=TclK5gNM_PM&t=3056s
-video:50:38
+video:57:24
+
 
 
 */
@@ -24,10 +26,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: const FirstPage(),
+        home: FirstPage(),
         routes: {
-          '/firstpage': (context) => const FirstPage(),
-          '/secondpage': (context) => const SecondPage(),
+          '/firstpage': (context) => FirstPage(),
+          '/homepage': (context) => HomePage(),
+          '/settingspage': (context) => SettingsPage(),
         });
   }
 }
