@@ -6,7 +6,7 @@ import 'package:full_flutter_master_class/pages/settings_page.dart';
 
 /*
 https://www.youtube.com/watch?v=TclK5gNM_PM&t=3056s
-video:57:24
+video:59:45
 
 
 
